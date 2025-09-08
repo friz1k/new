@@ -2,3 +2,27 @@ zad 1
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 Console.WriteLine(a * a + b * b);
+zad 2
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine((a + b)*(a + b));
+zad3
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine((a-b)*(a - b)*(a - b));
+zad4
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+Console.WriteLine(a * b * c);
+zad5
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine((a+b)*0.4); 
+zad6
+int brutto = int.Parse(Console.ReadLine());
+Console.WriteLine(brutto / 1.23);
+zad7
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine(a / b);
