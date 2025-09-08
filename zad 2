@@ -1,0 +1,12 @@
+zad1
+int a = int.Parse(Console.ReadLine());
+if (a % 3 == 0)
+    Console.WriteLine("tak");
+else
+    Console.WriteLine("nie");
+zad2
+int a = int.Parse(Console.ReadLine());
+if (a >= 99 || a<999 && a%17 == 0 )
+    Console.WriteLine("tak");
+else
+    Console.WriteLine("nie");
