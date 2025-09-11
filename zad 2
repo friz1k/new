@@ -10,3 +10,37 @@ if (a >= 99 || a<999 && a%17 == 0 )
     Console.WriteLine("tak");
 else
     Console.WriteLine("nie");
+//zad 3
+//int a = int.Parse(Console.ReadLine());
+//if (a < 18)
+//Console.WriteLine("osoba jest niepełnoletnia");
+//else
+//Console.WriteLine("osoba jest niepełnoletnia");
+//zad4
+//int MAX = (20);
+//int a = int.Parse(Console.ReadLine());
+//if (a > MAX)
+//    Console.WriteLine("cięzarówka nie może wjechać");
+//else
+//    Console.WriteLine("cięzarówka może wjechać");
+//zad5
+//int a = int.Parse(Console.ReadLine());
+//int b = int.Parse(Console.ReadLine());
+//int c = int.Parse(Console.ReadLine());
+//if (a < c || c > b)
+//    Console.WriteLine("TAK");
+//else
+//    Console.WriteLine("nie");
+//zad6
+int a = int.Parse(Console.ReadLine());
+int p = int.Parse(Console.ReadLine());
+if ((Math.SPow(a, p) - a) % p == 0)
+    Console.WriteLine("tak");
+else Console.WriteLine("nie");
+//zad7
+int p = int.Parse(Console.ReadLine());
+int k = int.Parse(Console.ReadLine());
+int s = int.Parse(Console.ReadLine());
+if (3 * s >= (k - p))
+    Console.WriteLine("Tak");
+else Console.WriteLine("Nie");
