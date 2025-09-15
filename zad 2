@@ -44,3 +44,82 @@ int s = int.Parse(Console.ReadLine());
 if (3 * s >= (k - p))
     Console.WriteLine("Tak");
 else Console.WriteLine("Nie");
+
+
+
+
+
+2A
+
+
+
+
+
+
+zad 1 2/a
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = (a + b);
+if (c % 2 == 0)
+    Console.WriteLine("tak");
+else
+    Console.WriteLine("nie");
+zad 2 2/a
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int geometryczna = a * b;
+int arytmetyczna = a + b;
+if (arytmetyczna > geometryczna)
+    Console.WriteLine("tak");
+else Console.WriteLine("nie");
+zad 3 2/a 
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+
+if (a == b && b != c)
+{
+    Console.WriteLine("TAK " + a);
+}
+else if (a == c && b != c)
+{
+    Console.WriteLine("TAK " + a);
+}
+else if (b == c && a != c)
+{
+    Console.WriteLine("TAK " + b);
+}
+else
+{
+    Console.WriteLine("NIE");
+}
+zad 4 2/a
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+int d = int.Parse(Console.ReadLine());
+
+if (a <= b && a <= c && a <= d)
+{
+    Console.WriteLine(a);
+}
+else if (b <= a && b <= c && b <= d)
+{
+    Console.WriteLine(b);
+}
+else if (c <= a && c <= b && c <= d)
+{
+    Console.WriteLine(c);
+}
+else
+{
+    Console.WriteLine(d);
+}
+zad 5 2/a
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+if (a + b > c && a + c > b && b + c > a)
+    Console.WriteLine("tak");
+else Console.WriteLine("nie");
+zad 6 2/a
