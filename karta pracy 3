@@ -28,3 +28,33 @@ for (int i = 10; i < 100; i++)
     suma = suma + i;
 }
 Console.WriteLine(suma);
+
+3b
+
+
+//Zad 1 / 3b
+//for (int i = 1; i < 31; i++)
+//{
+//    Console.Write(i + " ");
+//}
+///Zad 2 / 3b
+//for (int i = 1; i < 10; i = i + 2)
+//{
+//    Console.Write(i * i + " ");
+//}
+///Zad 3 / 3b
+//for (int i = 1000; i <= 9999; i++)
+//{
+//    if (i % 379 == 0) Console.Write(i + " ");
+//}
+///Zad 5 / 3b
+//Console.WriteLine("Podaj ile chcesz liczb");
+//int n = int.Parse(Console.ReadLine());
+//int x;
+//int w = 0;
+//for (int i = 0; i < n; i++)
+//{
+//    x = int.Parse(Console.ReadLine());
+//    w = w + x;
+//}
+//Console.WriteLine(w);
